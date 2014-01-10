@@ -1,0 +1,278 @@
+[translation]
+LangID=1
+Author=Seph
+AuthorEmail=gosclient@yahoo.it
+
+[general]
+Name=Nome
+Host=Host
+Port=Porta
+Open=Apri
+Add=Aggiungi
+New=Nuovo
+Delete=Elimina
+Modify=Modifica
+Remove=Rimuovi
+Exit=Esci
+Description=Descrizione
+Language=Lingua
+Comment=Commento
+Ok=Ok
+Cancel=Annulla
+Nobody=(nessuno)
+Error=Errore
+Reset=Reset
+Close=Chiudi
+Define=Definisci
+Apply=Applica
+Abort=Ripristina
+
+[forms]
+frmMain=Schermo del mud
+frmChat=Chat
+frmMapper=Mapper
+frmStato=Status
+frmRubrica=Rubrica
+frmButtons=Pulsanti
+frmMsp=Msp
+
+[help]
+Help=Aiuto
+URL=Sito web
+EMail=Scrivi all'autore...
+About=Informazioni su GosClient
+
+[muds]
+Caption=Elenco dei MUD
+Add=Aggiungi un nuovo MUD
+Properties=Proprietà
+Duplicate=Duplica
+NewName=Inserisci il nome per il nuovo MUD
+RemoveData=Eliminare anche i dati del MUD?
+
+[defmud]
+Properties=Proprietà
+PropertiesOf=Proprietà di
+
+[base]
+Link=Collegamento
+Connect=Connetti
+CloseConn=Disconnetti
+ExitMuds=Esci all'elenco dei MUD
+Profiles=Profili
+OrgProfiles=Gestisci profili
+Tools=Strumenti
+Settings=Impostazioni...
+Note=Gestisci le note (solo Silmaril)
+WatchLog=Guarda il log
+Chat=Chat (solo Silmaril)
+Mapper=Mapper (solo Silmaril)
+Status=Status (solo Silmaril)
+Colours=Imposta i colori
+Rubrica=Rubrica
+Buttons=Pulsanti personalizzabili
+Preferences=Preferenze...
+Layout=Layout
+LockLayout=Blocca layout
+UnlockLayout=Sblocca layout
+Plugins=Plug-Ins
+OrgPlugins=Gestisci plug-ins
+FullScreen=Schermo intero
+
+[base_err]
+PluginInit=Si è verificato un'errore durante l'inizializzazione del plug-in
+PluginTimeout=Inpossibile connettersi al plug-in, errore di timeout
+
+[base_quest]
+TerminateSess=Terminare la sessione corrente?
+
+[buttons]
+Caption=Pulsanti
+
+[combo]
+Caption=Combinazione di tasti
+
+[config]
+Caption=Preferenze
+General=Generale
+Rubrica=Rubrica
+Startup=Avvio
+Autologin=Autologin
+Sections=Sezioni
+BufferType=Tipo di buffer:
+BufferMemory=In memoria (3000 righe)
+BufferDisk=Su disco (infinito)
+WriteLog=Scrivi il log del MUD
+ErasePrompt=Cancella il prompt automaticamente
+LocalEcho=Eco locale
+MultipleCommands=Permetti più di un comando sulla stessa linea
+MultipleSeparator=Separatore:
+RubricaSave=Salva i personaggi (chat) fra i contatti automaticamente
+RubricaLoad=Carica i personaggi (chat) dai contatti all'avvio
+StartList=Visualizza l'elenco dei MUD
+StartAuto=Avvia automaticamente con questo MUD:
+AutologinNo=Non eseguire l'autologin
+AutologinYes=Esegui l'autologin secondo questa procedura:
+SendNick=Invia nickname
+SendPass=Invia password
+SendEnter=Premi invio
+SendCommand=Invia comando
+Enter=Invio
+CommandToSend=Comando da inviare:
+Font=Carattere:
+Change=Cambia
+Log=Log
+LogPlain=Testo semplice (.log)
+LogHtml=Html (.htm)
+DisableVarParser=Disabilita il Parser delle Variabili
+
+[contact]
+Caption=Proprietà
+Nick=Nick:
+Name=Nome:
+EMail=Indirizzo e-mail:
+URL=Sito web:
+Notes=Note:
+ErrNoNick=Inserisci un nickname oppure premi Annulla per uscire
+
+[defalias]
+Text=Testo:
+Action=Azione
+Actions=Azioni
+Move=Muovi
+
+[deftrigger]
+Expression=Espressione:
+Reaction=Reazione
+
+[defaction]
+Caption=Definisci azione
+WithoutPar=Senza parametri
+WithPar=Con parametri
+Custom=Personalizza
+Auto=Automatico
+
+[defbutt]
+Caption=Definisci pulsante
+ButtonType=Tipo di pulsante
+Normal=Normale
+Double=Doppio
+TextNormal=Testo (normale):
+TextPressed=Testo (premuto):
+AliasNormal=Alias (normale):
+AliasPressed=Alias (premuto):
+SelectAlias=Scegli un alias
+
+[log]
+Caption=Opzioni log
+SaveBuffer=Salva il buffer corrente nel log
+IgnoreBuffer=Ignora il buffer corrente
+
+[layout]
+Caption=Selezione layout
+Current=Corrente
+Preview=Anteprima
+SelWindow=Scegli la finestra da ancorare
+SelWinNew=Scegli la nuova finestra
+SplitHor=Dividi in orizzontale
+SplitVert=Dividi in verticale
+SaveAs=Salva cone nome...
+End=Fine
+NewName=Inserisci un nuovo nome per questo layout
+
+[main]
+Caption=Schermo del mud
+Join=Unisci
+Split=Dividi
+Copy=Copia
+Visit=Visita
+WriteTo=Scrivi a
+
+[palette]
+Caption=Impostazione dei colori
+Default=Predefinito:
+Black=Nero:
+White=Bianco:
+LightGray=Grigio chiaro:
+DarkGray=Grigio scuro:
+DarkRed=Rosso scudo:
+LightRed=Rosso chiaro:
+DarkYellow=Giallo scuro:
+LightYellow=Giallo chiaro:
+DarkGreen=Verde scudo:
+LightGreen=Verde chiaro:
+DarkCyan=Ciano scuro:
+LightCyan=Ciano chiaro:
+DarkBlue=Blu scuro:
+LightBlue=Blu chiaro:
+DarkViolet=Viola scuro:
+LightViolet=Viola chiaro:
+TextColor=Colore del testo
+Profile=Profilo:
+SaveAs=Salva nuovo profilo
+Confirm=Conferma
+InsertName=Inserisci un nome per il nuovo profilo di colore
+SaveChange=Salvare le modifiche a
+
+[plugins]
+Caption=Gestione plug-ins
+Started=Avviato
+Stopped=Fermo
+Automatic=Automatico
+Manual=Manuale
+Title=Titolo
+State=Stato
+Start=Avvio
+Configure=Configura...
+About=Informazioni su...
+NoConf=Il plug-in non possiede una finestra di configurazione
+NoAbout=Il plug-in non possiede una finestra di informazioni
+
+[profiles]
+Caption=Gestione profili
+ChangePass=Cambia password
+Profiles=profili
+RegNew=Registrazione di un nuovo profilo
+InsNick=Inserisci il nome del tuo personaggio
+InsPass=Inserisci la password per
+InsPass2=Riscrivi la password
+DiffPass=Hai inserito due password differenti
+OldPass=Inserisci la vecchia password per 
+NewPass=inserisci la nuova password
+NewPass2=Riscrivi la nuova password
+WrongPass=Password errata
+Remove=Rimuovi
+
+[rubrica]
+Caption=Rubrica
+Contacts=Contatti
+DelContact=Eliminare il contatto
+Add=Aggiungi contatto
+Sort=Ordina i contatti per nome
+Properties=Proprietà
+Remove=Elimina il contatto
+
+[settings]
+Caption=Impostazioni
+Alias=Alias
+Trigger=Trigger
+Buttons=Pulsanti
+Highlights=Highlights
+Variables=Variabili
+SaveChanges=Salvare le modifiche a
+
+[calias]
+Text=Testo
+KeyCombo=Combo
+Expression=Espressione
+
+[cbuttons]
+TextNormal=Testo (normale)
+TextPressed=Testo (premuto)
+AliasNormal=Alias (normale)
+AliasPressed=Alias (premuto)
+
+[cvar]
+Name=Nome
+Value=Valore
+DefVar=Definisci variabile

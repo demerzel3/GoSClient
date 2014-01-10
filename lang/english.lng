@@ -1,0 +1,278 @@
+[translation]
+LangID=2
+Author=Seph
+AuthorEmail=gosclient@yahoo.it
+
+[general]
+Name=Name
+Host=Host
+Port=Port
+Open=Load
+Add=Add
+New=New
+Delete=Delete
+Modify=Modify
+Remove=Remove
+Exit=Exit
+Description=Description
+Language=Language
+Comment=Comments
+Ok=Ok
+Cancel=Cancel
+Nobody=(default)
+Error=Error
+Reset=Reset
+Close=Close
+Define=Define
+Apply=Save
+Abort=Cancel
+
+[forms]
+frmMain=MUD Window
+frmChat=Chat
+frmMapper=Mapper
+frmStato=Status
+frmRubrica=Address Book
+frmButtons=Buttons
+frmMsp=Msp
+
+[help]
+Help=Help
+URL=Visit GoS Online
+EMail=Email the Author
+About=About GoSClient
+
+[muds]
+Caption=MUD List
+Add=Add New MUD
+Properties=Properties
+Duplicate=Duplicate
+NewName=Insert new name
+RemoveData=Delete all of MUD's data as well?
+
+[defmud]
+Properties=Properties
+PropertiesOf=Properties of
+
+[base]
+Link=File
+Connect=Connect
+CloseConn=Disconnect
+ExitMuds=Exit to MUD List
+Profiles=Profiles
+OrgProfiles=Organize Profiles
+Tools=Tools
+Settings=Automations
+Note=[ita]Manage Notes (Silmaril Only)
+WatchLog=Watch Log
+Chat=[ita]Chat (Silmaril Only)
+Mapper=[ita]Mapper (Silmaril Only)
+Status=[ita]Status (Silmaril Only)
+Colours=Text Colors
+Rubrica=Address Book
+Buttons=Buttons
+Preferences=Preferences
+Layout=Layout
+LockLayout=Lock Layout
+UnlockLayout=Unlock Layout
+Plugins=Plug-Ins
+OrgPlugins=Organize Plug-Ins
+FullScreen=Full Screen
+
+[base_err]
+PluginInit=An error occured while initializing the plugin.
+PluginTimeout=Unable to connect to the plugin, timeout error.
+
+[base_quest]
+TerminateSess=Terminate the current session?
+
+[buttons]
+Caption=Buttons
+
+[combo]
+Caption=Keys Combination
+
+[config]
+Caption=Preferences
+General=General
+Rubrica=Address Book
+Startup=Startup
+Autologin=Auto-Login
+Sections=Sections
+BufferType=Type of Buffer:
+BufferMemory=On Memory (3000 Lines)
+BufferDisk=On Disk (Infinite)
+WriteLog=Write MUD's Log
+ErasePrompt=Erase Prompt Automatically
+LocalEcho=Local Echo
+MultipleCommands=Allow More Commands on the Same Line
+MultipleSeparator=Commands' separator:
+RubricaSave=Save Characters (chat) as Contacts Automatically
+RubricaLoad=Load Characters (chat) from Contacts at Startup
+StartList=Show List of MUDs
+StartAuto=Start Automatically with This MUD:
+AutologinNo=No Auto-Login
+AutologinYes=Auto-Login in the Following Order:
+SendNick=Send Nickname
+SendPass=Send Password
+SendEnter=Send Enter
+SendCommand=Send Command
+Enter=Enter
+CommandToSend=Command to Send:
+Font=Font:
+Change=Change
+Log=Log
+LogPlain=Plain Text (.log)
+LogHtml=Html (.htm)
+DisableVarParser=Disable Variable Parser
+
+[contact]
+Caption=Properties
+Nick=Nick:
+Name=Name:
+EMail=Email Address:
+URL=URL Address:
+Notes=Notes:
+ErrNoNick=Insert a nickname or press cancel to exit.
+
+[defalias]
+Text=Text:
+Action=Action
+Actions=Actions
+Move=Move
+
+[deftrigger]
+Expression=Expression:
+Reaction=Reaction:
+
+[defaction]
+Caption=Define Action
+WithoutPar=Without Parameters
+WithPar=With Parameters
+Custom=Custom
+Auto=Auto
+
+[defbutt]
+Caption=Define Button
+ButtonType=Button Type
+Normal=Normal
+Double=Double
+TextNormal=Text (idle):
+TextPressed=Text (pressed):
+AliasNormal=Alias (idle):
+AliasPressed=Alias (pressed):
+SelectAlias=Select an Alias
+
+[log]
+Caption=Log Options
+SaveBuffer=Save Current Buffer as Log
+IgnoreBuffer=Ignore Current Buffer
+
+[layout]
+Caption=Select Layout
+Current=Current
+Preview=Preview
+SelWindow=Select Window to Dock
+SelWinNew=Select New Window
+SplitHor=Horizontal Split
+SplitVert=Vertical Split
+SaveAs=Save as...
+End=End
+NewName=Insert name for this layout
+
+[main]
+Caption=MUD screen
+Join=Join
+Split=Split
+Copy=Copy
+Visit=Visit
+WriteTo=Write To
+
+[palette]
+Caption=Text Colors
+Default=Default:
+Black=Black:
+White=White:
+LightGray=Light Gray:
+DarkGray=Dark Gray:
+DarkRed=Dark Red:
+LightRed=Light Red:
+DarkYellow=Dark Yellow:
+LightYellow=Light Yellow:
+DarkGreen=Dark Green:
+LightGreen=Light Green:
+DarkCyan=Dark Cyan:
+LightCyan=Light Cyan:
+DarkBlue=Dark Blue:
+LightBlue=Light Blue:
+DarkViolet=Dark Violet:
+LightViolet=Light Violet:
+TextColor=Colors
+Profile=Profile:
+SaveAs=Save New Profile
+Confirm=Confirm
+InsertName=Insert name for new color profile
+SaveChange=Save changes on
+
+[plugins]
+Caption=Organize Plug-Ins
+Started=Initialized
+Stopped=Closed
+Automatic=Automatic
+Manual=Manual
+Title=Title
+State=Status
+Start=Startup
+Configure=Configure
+About=About
+NoConf=This plug-in does not have a configuration window.
+NoAbout=This plug-in does not have an about window.
+
+[profiles]
+Caption=Organize Profiles
+ChangePass=Change Password
+Profiles=Profiles
+RegNew=Create New Profile
+InsNick=Insert nickname
+InsPass=Insert password for
+InsPass2=Confirm password for
+DiffPass=The passwords entered do not match.
+OldPass=Insert old password for
+NewPass=Insert new password
+NewPass2=Confirm new password
+WrongPass=The password entered is incorrect.
+Remove=Delete
+
+[rubrica]
+Caption=Address Book
+Contacts=Contacts
+DelContact=Delete Contact
+Add=Add Contact
+Sort=Sort Contacts by Name
+Properties=Properties
+Remove=Delete Contact
+
+[settings]
+Caption=Automations
+Alias=Aliases
+Trigger=Triggers
+Buttons=Buttons
+Highlights=Highlights
+Variables=Variables
+SaveChanges=Save changes to
+
+[calias]
+Text=Text
+KeyCombo=Combo
+Expression=Expression
+
+[cbuttons]
+TextNormal=Text (idle)
+TextPressed=Text (pressed)
+AliasNormal=Alias (idle)
+AliasPressed=Alias (pressed)
+
+[cvar]
+Name=Name
+Value=Value
+DefVar=Define Variable

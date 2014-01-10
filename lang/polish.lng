@@ -1,0 +1,277 @@
+[translation]
+LangID=3
+Author=KoCuR
+AuthorEmail=armos@poczta.onet.pl
+
+[general]
+Name=Nazwa
+Host=Host
+Port=Port
+Open=Otwórz
+Add=Dodaj
+New=Nowy
+Delete=Skasuj
+Modify=Modyfikuj
+Remove=Usuñ
+Exit=Wyjœcie
+Description=Opis
+Language=Jêzyk
+Comment=Komentarz
+Ok=Ok
+Cancel=Anuluj
+Nobody=(nikt)
+Error=B³¹d
+Reset=Resetuj
+Close=Zamknij
+Define=Definiuj
+Apply=Zastosuj
+Abort=Abortuj
+
+[forms]
+frmMain=Ekran MUDa
+frmChat=Chat
+frmMapper=Mapper
+frmStato=Status
+frmRubrica=Ksi¹¿ka Adresowa
+frmButtons=Przyciski
+frmMsp=Msp
+
+[help]
+URL=Strona Domowa
+EMail=Napisz do Autora...
+About=O GosClient
+
+[muds]
+Caption=Lista MUDów
+Add=Dodaj nowego MUDa
+Properties=W³aœciwoœci
+Duplicate=Kopiuj
+NewName=Podaj nazwê nowego MUDa
+RemoveData=Skasowaæ tak¿e dane tego MUDa?
+
+[defmud]
+Properties=W³aœciwoœci
+PropertiesOf=W³aœciwoœci
+
+[base]
+Link=Po³¹czenie
+Connect=Po³¹cz
+CloseConn=Zamknij Po³¹czenie
+ExitMuds=WyjdŸ do listy MUDów
+Profiles=Profile
+OrgProfiles=Organizuj profile
+Tools=Narzêdzia
+Settings=Ustawienia...
+Note=Zarz¹dzaj notatkami (tylko dla Silmarila, po w³osku)
+WatchLog=Ogl¹daj Log
+Chat=Chat (tylko dla Silmarila, po w³osku)
+Mapper=Mapper (tylko dla Silmarila, po w³osku)
+Status=Status (tylko dla Silmarila, po w³osku)
+Colours=Ustaw kolory
+Rubrica=Ksi¹¿ka adresowa
+Buttons=W³asne przyciski
+Preferences=Opcje...
+Layout=Wygl¹d
+LockLayout=Zablokuj wygl¹d
+UnlockLayout=Odblokuj wygl¹d
+Plugins=Wtyczki
+OrgPlugins=Organizuj wtyczki
+FullScreen=Pe³ny ekran
+
+[base_err]
+PluginInit=Wyst¹pi³ b³¹d podczas inicializacji wtyczki
+PluginTimeout=Nie mo¿na po³¹czyæ siê z wtyczk¹, b³¹d po³¹czenia
+
+[base_quest]
+TerminateSess=Zakoñczyæ aktualn¹ sesjê?
+
+[buttons]
+Caption=Przyciski
+
+[combo]
+Caption=Kombinacje klawiszy
+
+[config]
+Caption=Ustawienia
+General=Ogólne
+Rubrica=Ksi¹¿ka adresowa
+Startup=Uruchamianie
+Autologin=Automatyczne logowanie
+Sections=Sekcje
+BufferType=Typ bufora:
+BufferMemory=W pamiêci (3000 linii)
+BufferDisk=Na dysku (nieskoñczony)
+WriteLog=Zapisuj log MUDa
+ErasePrompt=Automatycznie kasuj listê komend
+LocalEcho=Lokalne echo
+MultipleCommands=Zezwalaj na wiêcej komend w jednej linii
+MultipleSeparator=Separator komend:
+RubricaSave=Zapisuj postacie (chat) jako kontakty automatycznie
+RubricaLoad=Wczytaj postacie (chat) z kontaktów podczas uruchamiania
+StartList=Poka¿ listê MUDów
+StartAuto=Zaczynaj automatycznie z tym MUDem:
+AutologinNo=Bez Automatycznego logowania
+AutologinYes=Zaloguj automatycznie w tym porz¹dku:
+SendNick=Wyœlij nick
+SendPass=Wyœlij has³o
+SendEnter=Wyœlij Entera
+SendCommand=Wyœlij komendê
+Enter=Enter
+CommandToSend=Komenda do wys³ania:
+Font=Font:
+Change=Zmieñ
+Log=Log
+LogPlain=Czysty tekst (.log)
+LogHtml=Html (.htm)
+DisableVarParser=Disable Variable Parser
+
+[contact]
+Caption=W³aœciwoœci
+Nick=Nick:
+Name=Imiê:
+EMail=Adres E-mailowy:
+URL=Strona WWW:
+Notes=Notatki:
+ErrNoNick=Wstaw nick lub naciœnij Anuluj ¿eby wyjœæ
+
+[defalias]
+Text=Tekst:
+Action=Akcja
+Actions=Akcje
+Move=Ruch
+
+[deftrigger]
+Expression=Wyra¿enie:
+Reaction=Reakcja
+
+[defaction]
+Caption=Definiuj akcjê
+WithoutPar=Bez parametrów
+WithPar=Z parametrami
+Custom=W³asne
+Auto=Automatycznie
+
+[defbutt]
+Caption=Definiuj przycisk
+ButtonType=Typ przycisku
+Normal=Normalny
+Double=Podwójny
+TextNormal=Tekst (normalny):
+TextPressed=Tekst (wciœniêty):
+AliasNormal=Alias (normalny):
+AliasPressed=Alias (wciœniêty):
+SelectAlias=Wybierz Alias
+
+[log]
+Caption=Opcje logowania
+SaveBuffer=Zapisz aktualny bufor jako log
+IgnoreBuffer=Ignoruj aktualny bufor
+
+[layout]
+Caption=Wybierz uk³ad
+Current=Aktualny
+Preview=Podgl¹d
+SelWindow=Wybierz okno do dokowania dock
+SelWinNew=Wybierz nowe okno
+SplitHor=Poziomy podzia³
+SplitVert=Pionowy podzia³
+SaveAs=Zapisz jako...
+End=Koniec
+NewName=Podaj now¹ nazwê dla tego uk³adu
+
+[main]
+Caption=Ekran MUDa
+Join=Do³¹cz
+Split=Podziel
+Copy=Kopiuj
+Visit=odwiedŸ
+WriteTo=Napisz do
+
+[palette]
+Caption=Ustawiaj kolory
+Default=Standardowe:
+Black=Czarny:
+White=Bia³y:
+LightGray=Jasny szary:
+DarkGray=Ciemny szary:
+DarkRed=Ciemny czerwony:
+LightRed=Jasny czerwony:
+DarkYellow=Ciemny ¿o³ty:
+LightYellow=Jasny ¿ó³ty:
+DarkGreen=Ciemny zielony:
+LightGreen=Jasny zielony:
+DarkCyan=Ciemny ro¿:
+LightCyan=Jasny ró¿:
+DarkBlue=Ciemny niebieski:
+LightBlue=Jasny niebieski:
+DarkViolet=Ciemny fioletowy:
+LightViolet=Jasny fioletowy:
+TextColor=Kolor tekstu
+Profile=Profil:
+SaveAs=Zapisz nowy profil
+Confirm=PotwierdŸ
+InsertName=Podaj now¹ nazwê dla nowego profilu
+SaveChange=Zapisz zmiany na
+
+[plugins]
+Caption=Organizuj wtyczki
+Started=W³¹czony
+Stopped=Wy³¹czony
+Automatic=Automatycznie
+Manual=Rêcznie
+Title=Tytu³
+State=Stan
+Start=Uruchamianie
+Configure=Konfiguruj...
+About=O...
+NoConf=Ta wtyczka nie posiada konfiguracji
+NoAbout=Ta wtyczka nie posiada informacji o sobie
+
+[profiles]
+Caption=Organizuj profile
+ChangePass=Zmieñ has³o
+Profiles=profil(e/i)
+RegNew=Rejestracja nowego profila
+InsNick=Podaj nick nowej postaci
+InsPass=Podaj has³o dla postaci
+InsPass2=Podaj jeszcze raz has³o dla
+DiffPass=Wpisa³eœ dwa ró¿ne has³a!
+OldPass=Podaj stare has³o postaci
+NewPass=Podaj nowe has³o
+NewPass2=Podaj nowe has³o ponownie
+WrongPass=Z³e has³o
+Remove=Usuñ
+
+[rubrica]
+Caption=Ksi¹¿ka adresowa
+Contacts=Kontakty
+DelContact=Skasuj kontakt
+Add=Dodaj kontakt
+Sort=Sortuj kontakty po imieniu
+Properties=W³aœciwoœci
+Remove=Skasuj kontakt
+
+[settings]
+Caption=Ustawienie
+Alias=Aliasy
+Trigger=Akcje
+Buttons=Przyciski
+Highlights=Podœwietlenia
+Variables=Zmienne
+SaveChanges=Zapisz zmiany w
+
+[calias]
+Text=Tekst
+KeyCombo=Kombinacja
+Expression=Wyra¿enie
+
+[cbuttons]
+TextNormal=Tekst (normalny)
+TextPressed=Tekst (wciœniêty)
+AliasNormal=Alias (normalny)
+AliasPressed=Alias (wciœniêty)
+
+[cvar]
+Name=Nazwa
+Value=Wartoœæ
+DefVar=Definiuj zmienn¹
